@@ -23,16 +23,18 @@ class Item
 end
 ```
 
-To create his nil counterpart there are two options:
+To create a class with mock methods there are two options:
 
 ```ruby
-#Option 1, on the nil container select the methods to mock
+# Option 1
+# on the nil class specify the methods to mock
 class NilItem
   extend Nilify
   nilify [:sku, :title]
 end
 
-#OR option 2, pass use the Item class to mock all the defined methods.
+# Option 2
+# Pass the Item class to mock all the defined methods inside that class.
 class NilItem
   extend Nilify
   nilify_from Item
