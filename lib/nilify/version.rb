@@ -1,0 +1,3 @@
+module Nilify
+  VERSION = "0.0.1"
+end
