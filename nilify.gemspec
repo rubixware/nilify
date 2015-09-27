@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.name        = 'nilify'
   s.version     = Nilify::VERSION
   s.summary     = %q{Provides methods for null object pattern implementation }
-  s.description = %q{A ruby gem to add mock methods following NOP}
+  s.description = %q{A ruby gem to simply add mocked methods into a ruby class}
   s.authors     = ["Everardo Medina"]
   s.email       = 'emedina@rubixware.com'
   s.files       = `git ls-files`.split($/)
