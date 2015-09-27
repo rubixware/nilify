@@ -1,5 +1,6 @@
 # Nilify
 [![Gem Version](https://badge.fury.io/rb/nilify.svg)](http://badge.fury.io/rb/nilify)
+[![CodeClimate](https://codeclimate.com/github/rubixware/nilify/badges/gpa.svg)](https://codeclimate.com/github/rubixware/nilify)
 
 
 A gem for null object pattern easy implementation on Ruby objects.
